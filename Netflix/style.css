@@ -1,0 +1,227 @@
+/* styling for Pen, not related to box-sizing or layout */
+
+body {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  background-color: black;
+  margin: auto;
+  padding: auto;
+ 
+}
+
+.content {
+  font-size:0.8em;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 4%;
+  background-color: white;
+  padding-right: 1%;
+  border-radius: 20px;
+  }
+
+.indexcontent {
+  font-size:1.3em;
+}
+
+
+/* Menu Items */
+#navbarDropdown {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color:black;
+  background-color:red;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+
+}
+
+::after {
+  color:black;
+}
+
+#navbarDropdown:hover {
+  background:rgba(139, 0, 0, .8);
+}
+
+.nav-link:hover {
+  background: rgba(139, 0, 0, .8);
+}
+
+#data.nav-link:hover {
+  background:rgba(139, 0, 0, .8);
+}
+
+::after:hover {
+  background:rgba(139, 0, 0, .8);
+}
+
+#load:hover {
+  background:rgba(139, 0, 0, 1);
+}
+
+#extract:hover {
+  background:rgba(139, 0, 0, 1);
+}
+
+#transform:hover {
+  background:rgba(139, 0, 0, 1);
+}
+
+b {
+  font-size: 18px;
+  color:black;
+  }
+
+#sources.nav-link {
+  font-family: "Segoe UI", Arial, sans-serif;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+
+#data.nav-link {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: black;
+  background-color: red;
+}
+
+.navbar {
+  background-color: black;
+  font-weight: bold;
+  width: 100%;
+  padding: 0;
+  margin-top: 30px;
+  
+}
+
+
+.nav-item2 {
+  font-size: 16px;
+  color: black;
+  background-color: red;
+
+}
+
+div.dropdown-menu.show {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: bolder;
+    background-color: red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.nav-link {
+  color:black;
+  background-color: red;
+  }
+
+
+
+
+
+.nav-link2 {
+
+  color:black;
+  background-color: red;
+  
+
+}
+
+.navbar-collapse {
+  position: absolute;
+  right: 4%;
+  font-size: small;
+ 
+}
+
+.text-left1 {
+  margin-left: 120px;
+  color: black;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.text-left2 {
+  
+  
+  color: black;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+
+
+p:not(.intro) {
+  text-align: justify;
+  color: #7e7e7e;
+}
+
+.thumbnail {
+  width:50%;
+}
+
+.main-image {      
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  float: left;
+}
+
+.rounded.float-left.thumbnail {
+    padding-bottom: 10px;
+    padding-right: 5px;
+    
+}
+
+.imagesize { 
+  width: 100%;
+
+}
+.rounded.main-image {
+  padding-right: 10px;
+}
+
+.rounded.float-right.thumbnail {
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.upperleft-button {
+    height: 130px;
+    width: 140px;
+    background: black;
+    margin-left: 15px;
+}
+
+
+.res-circle { 
+    width: 20%;
+    border-radius:25%;
+    line-height:0;
+    position: relative;
+}
+
+.res-circle::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+#footertext {
+  color:white;
+}
+
+.center {
+  display: block;
+  margin-left: 30.5%;
+  width: 22%;
+}
+
+.col-sm-12.col-md-12 {
+ width: 100%;
+ 
+}
+

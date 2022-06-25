@@ -189,19 +189,37 @@ p:not(.intro) {
 }
 
 .rounded.main-image4 {
-
   margin-left: 190px;
   width: 50%;
   float: center;
 }
 
 .rounded.main-image5 {
-
   margin-left: auto;
   margin-right: 100px;
-  width: 40%;
-  float: left;
+  width: 292px;
+  height: 456px;
+  float: center;
+}
 
+.newheader {
+
+  width: 292px;
+  height: 456px;
+  
+}
+
+.rounded.main-image6 {
+  margin-left: auto;
+  margin-right: 100px;
+  width: 292px;
+  height: 456px;
+  float: right;
+}
+
+.text1 {
+
+  margin-left: 80%;
 }
 
 li.class { 

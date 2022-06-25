@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Netflix Home</title>
@@ -13,7 +14,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light text-bg-dark" id="navtext">
-    <a href="index.html"><img src="images/animatednetflix.png" alt="Netflix" class="upperleft-button"></a>
+       <a href="index.html"><img src="images/animatednetflix.png" alt="Netflix" class="upperleft-button"></a>
        <img src="images/whoswatching.png" alt="whoswatching" class="center">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -21,44 +22,45 @@
                 <a class="nav-link active dropdown-toggle" ref="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="menu" aria-expanded="false"><strong><b>Info</b></strong></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" id="load" href="extract.html"><strong><b>Extract</b></strong></a>
-                <a class="dropdown-item" id="extract" href="load.html"><strong><b>Load</b></strong></a> 
-                <a class="dropdown-item" id="transform" href="transform.html"><strong><b>Transform</b></strong></a>
-                <a class="dropdown-item" id="world map" href="netflixworldmap.html"><strong><b>Netflix World Map</b></strong></a> 
-                                 
+                <a class="dropdown-item" id="extract" href="transform.html"><strong><b>Transform</b></strong></a> 
+                <a class="dropdown-item" id="transform" href="load.html"><strong><b>Load</b></strong></a>
+                <a class="dropdown-item" id="world map" href="netflixworldmap.html"><strong><b>Netflix World Map</b></strong></a>                   
                </div>
             </li>
             <li class="nav-item" id="navtext">
                 <a class="nav-link" id="data" href="data.html"><strong><b>Data</b></strong></a>
             </li>
             <li class="nav-item" id="navtext">
-                <a class="nav-link" id="sources" href="sources.html"><strong><b>Sources</b></strong></a>
+                <a class="nav-link" id="sources" href="https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies"><strong><b>Sources</b></strong></a>
             </li>
             </ul>
         </div>
     </nav>
-    <div class="row content">
-        <div class="col-sm-12 col-md-8 col-lg-8">
-            <h2 class="text-left1"><br>Transform Heading Here</h2>
-            <hr class="my-4">
-            <div class="indexcontent">
-            <img src="images/optimusprime.png" alt="Netflix" class="rounded main-image">Words will go here.
-        </div></div>
-         <div class="col-sm-12 col-md-4 col-lg-4" >
-            <h2 class="text-left2"><center><br>Top Series</center></h2>
-            <hr class="my-4">
-            <a href="MaxTemperature.html">
-                <img src="images/peakyblinders.png" height="200px" class="rounded float-left thumbnail" alt="netflix">
-            </a>
-            <a href="Humidity.html">
-                <img src="images/allamerican.png" height="200px"class="rounded float-right thumbnail" alt="netflix">
-            </a>
-            <a href="Cloudiness.html">
-                <img src="images/strangerthings.png" height="200" class="rounded float-left  thumbnail" alt="netflix">
-            </a>
-            <a href="WindSpeed.html">
-                <img src="images/godsfavidiot.png" height="200px" class="rounded float-right  thumbnail" alt="netflix">
-            </a>
+      <div class="content">
+        <div class="col-sm-12 col-md-12" >
+            <h2 class="text-left1"><center><br>Transform</center></h2>
+            <hr class="my-4"><div class="row content">
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="indexcontent">
+                    <img src="images/optimusprime.png" alt="Netflix" class="rounded main-image5"><div class="li class"><ul><li>Used Pandas functions in Jupyter Notebook to load both CSV files.</li><br><li>Reviewed the files and transformed into data frames.</li><br><li>Merged both dataframes together based off of their ID into one dataframe</li><br><li>Dropped unnecessary data columns / removed duplicates from the merged dataframe</li><br><li>Filtered out all movie content / focused on Netflix Series</li></ul>
+                </div></div></div>
+                </div>
+            </div>
+            
+               
+                
+               
+                
+                
+                
+               
+            
+              
+        
+               </div>
+             </div>
+           </div>     
         </div>
     </div>
-    <footer id="footertext" ><center><br><br><img src="images/netflix2.png" alt="Netflix" height="80" color="white" width="140"><br>© 2022<br>All rights reserved<br>NetflixR Inc.</center></footer>
+  <footer id="footertext" ><center><br><br><img src="images/netflix2.png" alt="Netflix" height="80" color="white" width="140"><br>© 2022<br>All rights reserved<br>NetflixR Inc.</center></footer>
 </body>

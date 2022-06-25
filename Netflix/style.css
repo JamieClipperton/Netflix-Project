@@ -12,17 +12,17 @@ body {
 .content {
   font-size:0.8em;
   margin-top: 100px;
-  margin-left: 20px;
-  margin-right: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
   background-color: white;
   padding-right: 1%;
   border-radius: 20px;
   }
 
-.indexcontent {
-  font-size:1.3em;
-}
-
+  .indexcontent {
+    font-size:25px;
+  }
+  
 
 /* Menu Items */
 #navbarDropdown {
@@ -90,8 +90,7 @@ b {
   font-weight: bold;
   width: 100%;
   padding: 0;
-  margin-top: 30px;
-  
+  margin-top: 20px;
 }
 
 
@@ -152,7 +151,11 @@ div.dropdown-menu.show {
   font-weight: bolder;
 }
 
-
+.worldmap {
+  height: 650px; 
+  width: 120%;
+  margin-left: 24%;
+}
 
 p:not(.intro) {
   text-align: justify;
@@ -181,8 +184,44 @@ p:not(.intro) {
 
 }
 .rounded.main-image {
-  padding-right: 10px;
+
+
 }
+
+.rounded.main-image4 {
+
+  margin-left: 190px;
+  width: 50%;
+  float: center;
+}
+
+.rounded.main-image5 {
+
+  margin-left: auto;
+  margin-right: 100px;
+  width: 40%;
+  float: left;
+
+}
+
+li.class { 
+  font-size: 27px;
+}
+
+.rounded.main-image2 {
+  margin-left: 190px;
+  padding-right: 10px;
+  width: 70%;
+}
+
+.rounded.main-image3 {
+  width: 70%;
+  height:100%;
+  margin-left: 190px;
+  padding-right: 10px;
+  
+}
+
 
 .rounded.float-right.thumbnail {
   padding-bottom: 10px;
@@ -219,9 +258,3 @@ p:not(.intro) {
   margin-left: 30.5%;
   width: 22%;
 }
-
-.col-sm-12.col-md-12 {
- width: 100%;
- 
-}
-
